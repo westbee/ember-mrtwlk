@@ -15,6 +15,10 @@ h3 {
   font-size: 1.4rem;
 }
 
+h4 {
+  font-size: 0.9rem;
+}
+
 p {
     font-size: 0.825rem;
     font-family: 'Open Sans', sans-serif;
@@ -52,10 +56,43 @@ p {
   color: #000;
 }
 
-.intro__custom-button {
+.intro__custom-button, .portfolio__custom-button {
   font-size: 0.625rem;
   letter-spacing: 0.4em;
   line-height: 1.3em;
   text-transform: uppercase;
   padding: 0.875rem 2.8125rem;
+}
+
+.portfolio-headline {
+  padding-top: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.portfolio-img {
+  padding-top: 30px;
+}
+
+@media(min-width:992px) {
+  .half-bg {
+    background: linear-gradient(-90deg, #F8F8F8 75%, #fff 25%);
+  }
+}
+
+.portfolio-number, .portfolio-text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio-number {
+  font-size: 2.75rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.portfolio-text {
+  letter-spacing: 0.5em;
+  margin-bottom: 40px;
 }
