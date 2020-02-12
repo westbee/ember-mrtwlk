@@ -1,1 +1,26 @@
-<h1>index</h1>
+<div class="container">
+  <div class="section-margin">
+    <div class="row v-align-middle">
+      <div class="col-sm">
+        <div class="intro">
+          <h3>{{@model.intro.title}}</h3>
+          <p class="intro__text-block intro__text-block--more-padding">{{@model.intro.text}}</p>
+          <hr class="d-none d-md-block">
+        </div>
+      </div>
+      <div class="col-md">
+        <img src="{{@model.intro.imgUrl}}" alt="Marta Wilk - Fotografin" class="img-fluid">
+      </div>
+      <div class="col-lg">
+        <div class="intro">
+          <hr class="d-none d-lg-block">
+          <p class="intro__headline">{{@model.headline.title}}</p>
+          <p class="intro__text-block">{{@model.headline.text}}</p>
+          <p class="text-center">
+            <a class="btn btn-outline-dark btn-sm intro__custom-button" href="about.html" role="button">{{@model.headline.button}}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
