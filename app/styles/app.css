@@ -171,3 +171,9 @@ p {
 .socialmedia__item--centering-icon {
   padding: 2px 5px 5px;
 }
+
+.copyright-notice {
+  font-size: 0.6rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
