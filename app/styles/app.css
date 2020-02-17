@@ -188,3 +188,18 @@ p {
   line-height: 1.6;
   font-size: 0.85rem;
 }
+
+.datenschutz__block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.datenschutz__block p {
+  margin-bottom: 0;
+  line-height: 1.6;
+  font-size: 0.85rem;
+}
+
+.datenschutz__block--add-margin p {
+  margin-bottom: 10px;
+}
