@@ -17,7 +17,7 @@
           <p class="intro__headline">{{@model.headline.title}}</p>
           <p class="intro__text-block">{{@model.headline.text}}</p>
           <p class="text-center">
-            <a class="btn btn-outline-dark btn-sm intro__custom-button" href="about.html" role="button">{{@model.headline.button}}</a>
+            <BtnLink>{{@model.headline.button}}</BtnLink>
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@
             <h2 class="portfolio-number">{{@model.highlights.photos.quantity}}</h2>
             <h4 class="portfolio-text">{{@model.highlights.photos.text}}</h4>
             <p class="text-center">
-              <a class="btn btn-outline-dark btn-sm portfolio__custom-button" href="#" role="button">{{@model.highlights.photos.button}}</a>
+              <BtnLink>{{@model.highlights.photos.button}}</BtnLink>
             </p>
           </div>
         </div>

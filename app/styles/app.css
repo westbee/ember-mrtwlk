@@ -37,6 +37,14 @@ p {
   align-items: center;
 }
 
+.custom-button {
+  font-size: 0.625rem;
+  letter-spacing: 0.4em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  padding: 0.875rem 2.8125rem;
+}
+
 .intro {
   padding: 100px 10px;
 }
@@ -56,14 +64,6 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: #000;
-}
-
-.intro__custom-button, .portfolio__custom-button {
-  font-size: 0.625rem;
-  letter-spacing: 0.4em;
-  line-height: 1.3em;
-  text-transform: uppercase;
-  padding: 0.875rem 2.8125rem;
 }
 
 .portfolio-headline {
