@@ -13,4 +13,5 @@ export default class Router extends EmberRouter {
 Router.map(function() {
   this.route('impressum');
   this.route('datenschutz');
+  this.route('fotografin');
 });
