@@ -14,4 +14,5 @@ Router.map(function() {
   this.route('impressum');
   this.route('datenschutz');
   this.route('fotografin');
+  this.route('kontakt');
 });
