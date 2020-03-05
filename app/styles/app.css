@@ -362,3 +362,81 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
     margin-top: 100px;
   }
 }
+
+.package {
+  margin-bottom: 50px;
+}
+
+.package__nav a {
+  font-size: 0.6rem;
+  letter-spacing: 0.075em;
+  margin: 2px;
+  padding-top: .6rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .6rem;
+}
+
+@media(min-width:768px) {
+  .package__nav a {
+    width: 165px;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    margin: 2px;
+    padding-top: .875rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: .875rem;
+  }
+}
+
+.package__overview {
+  margin-bottom: 50px;
+}
+
+.package__details {
+  height: 100%;
+  background-color: #cbcbcb;
+  padding: 3em;
+}
+
+.package__box {
+  background-color: #fff;
+  padding: 2em;
+}
+
+@media(min-width:576px) {
+  .package__details {
+    padding: 4em;
+  }
+
+  .package__box {
+    padding: 3em;
+  }
+}
+
+.box__headline {
+  padding-top: 20px;
+}
+
+.box__points {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box__points p {
+  margin-bottom: 0;
+  font-size: .77rem;
+}
+
+.box__extra {
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.04rem;
+}
+
+.box__tax {
+  font-size: 0.7rem;
+}

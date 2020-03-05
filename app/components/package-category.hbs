@@ -1,0 +1,14 @@
+<div class="package__overview">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <h3>{{@model.title}}</h3>
+      <p>{{@model.description}}</p>
+    </div>
+  </div>
+</div>
+<div class="package__details">
+  <div class="row justify-content-center">
+    <Package @model={{@model}} />
+  </div>
+</div>
+{{yield}}

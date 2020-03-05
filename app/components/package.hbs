@@ -1,0 +1,18 @@
+{{#each @model.packages as |package|}}
+  <div class="col-md-6 col-xl-5">
+    <div class="package__box">
+      <h5 class="box__headline">{{package.name}}</h5>
+        <div class="box__points">
+          {{#each package.details as |detail|}}
+            <p>&mdash; {{detail}}</p>
+          {{/each}}
+          <p class="box__extra">*{{package.extra}}</p>
+        </div>
+      <h5>
+        &mdash; {{package.price}} &mdash;<br />
+        <span class="box__tax">inkl. MwSt.</span>
+      </h5>
+    </div>
+  </div>
+{{/each}}
+{{yield}}
