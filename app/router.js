@@ -22,4 +22,9 @@ Router.map(function() {
     this.route('portrait');
     this.route('cake-smash');
   });
+  this.route('bildergalerie', function() {
+    this.route('neugeborene-und-babybauch');
+    this.route('kinder-und-familien');
+    this.route('portrait');
+  });
 });
