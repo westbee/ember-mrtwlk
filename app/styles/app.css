@@ -468,3 +468,25 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
   font-size: 0.8rem;
 }
 
+.gallery__nav {
+  margin-top: 50px;
+}
+
+.gallery__nav a {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  margin: 2px;
+  padding-top: .875rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: .875rem;
+}
+
+.gallery__nav a:link, a:visited, a:active {
+  color: #000;
+}
+
+.gallery__nav a:hover {
+  color: #cbcbcb;
+  text-decoration: none;
+}
