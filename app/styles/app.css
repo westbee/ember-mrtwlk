@@ -490,3 +490,11 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
   color: #cbcbcb;
   text-decoration: none;
 }
+
+.gallery__intro {
+  margin-top: 50px;
+}
+
+.gallery__intro h4 {
+  margin-bottom: 35px;
+}
