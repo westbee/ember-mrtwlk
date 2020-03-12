@@ -1,18 +1,3 @@
-<div class="container">
-  <div class="row justify-content-center">
-    {{#each @model.galleries as |gallery|}}
-      <div class="col-md">
-        <div class="gallery">
-          <LinkTo @route="bildergalerie.{{gallery.link}}">
-            <div class="gallery__image">
-              <img src="{{gallery.image}}" class="img-fluid">
-            </div>
-            <div class="gallery__description">
-              <h6 class="description-head">{{gallery.name}}</h6>
-            </div>
-          </LinkTo>
-        </div>
-      </div>
-    {{/each}}
-  </div>
+<div class="row justify-content-center">
+  {{!-- TODO: mini gallery --}}
 </div>
