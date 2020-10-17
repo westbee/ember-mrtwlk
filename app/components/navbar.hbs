@@ -1,0 +1,31 @@
+<BsNavbar
+  class="bg-transparent bg-top {{if isScrolling "changeBg"}}"
+  @type="light"
+  @position="fixed-top"
+  @toggleBreakpoint="md"
+  {{on "scroll" this.bgNav}}
+  @collapsed={{true}} as |navbar|>
+  <div class="navbar-header">
+    {{navbar.toggle}}
+    <img src="img/logo_big.png" alt="Marta Wilk - Fotografin" class="brand-logo">
+  </div>
+  <navbar.content class="justify-content-end">
+    <navbar.nav as |nav|>
+      <nav.item>
+        <nav.linkTo @route="index">Home</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="fotografin">Über mich</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="bildergalerie">Bildergalerie</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="pakete">Pakete & Preise</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="kontakt">Kontakt & Buchung</nav.linkTo>
+      </nav.item>
+    </navbar.nav>
+  </navbar.content>
+</BsNavbar>

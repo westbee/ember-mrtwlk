@@ -44,6 +44,36 @@ p {
     color: rgba(0,0,0,.7);
 }
 
+nav {
+  font-size: 0.85rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  text-transform: capitalize;
+  letter-spacing: 0.075em;
+}
+
+.navbar-expand-md .navbar-nav a.nav-link {
+  padding: 1.5rem 1.3rem 1rem;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+  color: #8d715d
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 1px solid #8d715d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8d715dc4;
+}
+
+.brand-logo {
+  height: 40px;
+  opacity: 0.8;
+}
+
 .intro-header {
   display: table;
   width: 100%;
