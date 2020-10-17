@@ -3,6 +3,9 @@ import Route from '@ember/routing/route';
 export default class IndexRoute extends Route {
   async model() {
     return {
+      header: {
+        logoUrl: "img/logo_big.png"
+      },
       intro: {
         title: "Hallo! Ich bin Marta,",
         text: "Ich halte deine schönsten Momente mit meiner Kamera fest. Jedes Foto lebt durch deine Emotionen und Erinnerungen!",
