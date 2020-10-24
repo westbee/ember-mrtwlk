@@ -1,12 +1,19 @@
 import EmberRouter from '@ember/routing/router';
 import config from './config/environment';
+import { inject as service } from '@ember/service';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
   rootURL = config.rootURL;
 
-  didTransition() {
-    window.scrollTo(0, 0);
+  @service router;
+
+  init() {
+    super.init(...arguments);
+
+    this.on('routeDidChange', function() {
+      window.scrollTo(0, 0);
+    });
   }
 }
 
