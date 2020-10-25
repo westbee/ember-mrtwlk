@@ -4,7 +4,10 @@ export default class IndexRoute extends Route {
   async model() {
     return {
       header: {
-        logoUrl: "img/logo_big.png"
+        top: "Marta Wilk Photography",
+        center: "Die schönste Momente",
+        centerBreak: "deines Lebens",
+        bottom: "mit meiner Kamera festgehalten"
       },
       intro: {
         title: "Hallo! Ich bin Marta,",

@@ -64,8 +64,33 @@ p {
 .intro-header__body {
   display: table-cell;
   vertical-align: middle;
-  padding-top: 80px;
   opacity: 0.65;
+}
+
+h4.top-header {
+  font-family: 'Forum', cursive;
+  letter-spacing: 0.15em;
+  line-height: 1.1em;
+  font-size: 1.2rem;
+  color: #8d715dc4;
+}
+
+h1.center-header {
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 0.01em;
+  line-height: 1.1em;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #8d715dc4;
+}
+
+h3.bottom-header {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.1em;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #8d715dc4;
 }
 
 .section-margin {
