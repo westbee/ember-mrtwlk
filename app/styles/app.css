@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
 
 html {
   height: 100%;
@@ -18,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Forum', cursive;
   text-align: center;
   letter-spacing: 0.125em;
   line-height: 1.3em;
@@ -35,7 +38,7 @@ h4 {
 
 p {
     font-size: 0.825rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 2;
     color: rgba(0,0,0,.7);
