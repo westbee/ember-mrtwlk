@@ -5,7 +5,7 @@ export default class IndexRoute extends Route {
     return {
       header: {
         top: "Marta Wilk Photography",
-        center: "Die schönste Momente",
+        center: "Die schönsten Momente",
         centerBreak: "deines Lebens",
         bottom: "mit meiner Kamera festgehalten"
       },
