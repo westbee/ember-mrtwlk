@@ -10,13 +10,13 @@ export default class IndexRoute extends Route {
         bottom: "mit meiner Kamera festgehalten"
       },
       intro: {
-        title: "Hallo! Ich bin Marta,",
-        text: "Ich halte deine schönsten Momente mit meiner Kamera fest. Jedes Foto lebt durch deine Emotionen und Erinnerungen!",
+        title: "Hallo! Ich bin Marta.",
+        text: "Schön, dass du meine Seite besuchst – willkommen hier und in meiner Welt! Was du siehst, ist meine ganze Leidenschaft. Wenn du auch Teil dieser Welt sein möchtest, dann lade ich dich herzlich in mein Studioatelier in Berlin-Weißensee ein.",
         imgUrl: "img/fotografin.jpg"
       },
       headline: {
         title: "Berliner Fotografin | Berlin & Umgebung",
-        text: "Ich halte deine schönsten Momente mit meiner Kamera fest. Jedes Foto lebt durch deine Emotionen und Erinnerungen! Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+        text: "Mein Angebot richtet sich in erster Linie an Kinder, Babys, Schwangere und Neugeborene. Ich halte deine schönsten Momente mit meiner Kamera fest. Jedes Foto lebt durch deine Emotionen und Erinnerungen!",
         button: "mehr über mich"
       },
       highlights: {
