@@ -1,9 +1,6 @@
 <div class="container">
   <div class="about-intro about-intro--bg">
     <div class="row align-items-center">
-      <div class="col-lg-5">
-        <img class="img-fluid" src="img/about/3.jpg" alt="Marta Wilk">
-      </div>
       <div class="col-lg-7">
         <div class="about-intro__main-block">
           <div class="main-block__text-box">
@@ -16,42 +13,36 @@
     </div>
   </div>
   <div class="about-block">
-    <div class="row justify-content-center">
-      <div class="col-md-9">
-        <div class="about-block__main-block">
-          <p class="text-center">{{@model.freetext.p1}}</p>
-          <p class="text-center"><strong>{{@model.freetext.p2}}</strong></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="about-block about-block--bg-90">
     <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="about-block__left-block">
+      <div class="col-lg-4 offset-lg-1">
+        <img class="img-fluid" src="{{@model.imgUrls.second}}" alt="Marta Wilk">
+      </div>
+      <div class="col-lg-7">
+        <div class="about-block__main-block">
           <div class="about-block__text-box">
-            <h3>{{@model.box.title}}</h3>
-            <p>{{@model.box.text}}</p>
+            <p>{{@model.box.p1}}</p>
+            <p>{{@model.box.p2}}</p>
+            <p>{{@model.box.p3}}</p>
           </div>
         </div>
       </div>
-      <div class="col-lg">
-        <img class="img-fluid minus-margin" src="{{@model.imgUrls.first}}" alt="Marta Wilk">
-      </div>
-      <div class="col-lg">
-        <img class="img-fluid extra-margin" src="{{@model.imgUrls.second}}" alt="Marta Wilk">
-      </div>
     </div>
   </div>
-  <div class="about-block">
-    <div class="row justify-content-center">
-      <div class="col-md-10">
+  <div class="about-block about-block--bg-color">
+    <div class="row align-items-center">
+      <div class="col-lg-6 offset-lg-1">
         <div class="about-block__main-block">
-          <p class="text-center">{{@model.endtext.p1}}</p>
-          <hr class="about-block__hr">
-          <p class="text-center"><strong>{{@model.endtext.p2}}</strong></p>
-          <p class="text-center">{{@model.endtext.p3}}</p>
+          <div class="about-block__text-box">
+            <h3>{{@model.endtext.headline}}</h3>
+            <p class="text-center">{{@model.endtext.p1}}</p>
+            <p class="text-center extra-margin">
+              <BtnLink @route="bildergalerie">{{@model.endtext.b1}}</BtnLink>
+            </p>
+          </div>
         </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-fluid" src="{{@model.imgUrls.third}}" alt="Marta Wilk">
       </div>
     </div>
   </div>

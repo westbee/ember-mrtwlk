@@ -340,12 +340,17 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
 }
 
 .about-intro--bg {
-  background: linear-gradient(-90deg, #cbcbcb 57%, #fff 0%);
+  background-image: url('/img/about/1.jpg');
+  background-repeat: no-repeat;
+  background-position: 60% 40%;
+  background-size: cover;
 }
 
 .about-intro__main-block {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-top: 5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 5em;
 }
 
 @media(min-width:1200px) {
@@ -358,10 +363,11 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
 .main-block__text-box {
   background-color: #fff;
   padding: 3em;
+  opacity: 0.89;
 }
 
 .main-block__text-box h5 {
-  font-size: .7em;
+  font-size: .8em;
   text-transform: uppercase;
   margin: 15px;
 }
@@ -370,35 +376,19 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
   margin: 25px;
 }
 
-.main-block__text-box p {
+.main-block__text-box p, .about-block__text-box p {
   font-size: .875em;
   line-height: 1.9;
+  margin-bottom: .5rem
 }
 
 .about-block__main-block p {
-  font-size: 1em;
+  font-size: 0.95em;
   font-family: 'Sorts Mill Goudy', serif;
 }
 
-.about-block--bg-90 {
-  background: linear-gradient(90deg, #cbcbcb 60%, #fff 0%);
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.about-block__left-block {
-  padding-left: 3em;
-  padding-right: 2em;
-}
-
-@media(min-width:1200px) {
-  .about-block__left-block {
-    padding-left: 4em;
-  }
-}
-
 .about-block__text-box {
-  background-color: #fff;
+
   padding: 3em;
   margin-top: 10px;
   margin-bottom:10px;
@@ -408,17 +398,13 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
   line-height: 1.9;
 }
 
-.minus-margin {
-  margin-top: -70px;
+.about-block--bg-color {
+  background-color: #FAF7F6;
+  padding: 100px 0px;
 }
 
 .extra-margin {
-  margin-top: 70px;
-}
-
-.about-block__hr {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 30px;
 }
 
 /* contact pages */
