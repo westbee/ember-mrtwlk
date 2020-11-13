@@ -20,10 +20,6 @@ export default class PaketeRoute extends Route {
         {
           name: "Kinder & Familien",
           route: "kinder-und-familien"
-        },
-        {
-          name: "Porträt",
-          route: "portrait"
         }
       ]
     }
