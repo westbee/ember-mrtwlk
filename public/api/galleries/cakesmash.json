@@ -1,0 +1,15 @@
+{
+  "data": {
+    "type": "galleries",
+    "id": "cake-smash",
+    "attributes": {
+      "name": "Cake Smash & Splash",
+      "title": "Lorem ipsum",
+      "image": "/img/gallery/1.jpg",
+      "link": "cakesmash",
+      "description":
+        "Lorem ipsum give me a cake"
+    }
+  }
+  }
+}

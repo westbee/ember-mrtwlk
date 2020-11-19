@@ -6,4 +6,6 @@ export default class GalleryModel extends Model {
   @attr image;
   @attr link;
   @attr description;
+  @attr url;
+  @attr pics;
 }

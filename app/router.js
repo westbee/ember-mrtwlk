@@ -26,7 +26,6 @@ Router.map(function() {
     this.route('babybauch');
     this.route('neugeborene');
     this.route('kinder-und-familien');
-    this.route('portrait');
     this.route('cake-smash');
   });
   this.route('bildergalerie', function() {
