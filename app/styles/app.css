@@ -306,6 +306,10 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
   color: rgba(0,0,0,.7);
 }
 
+.primary-padding {
+  padding-top: 120px;
+}
+
 .impressum__block {
   padding-top: 10px;
   padding-bottom: 10px;

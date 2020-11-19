@@ -1,35 +1,37 @@
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-9">
-      <div class="impressum">
-        <h3>{{@model.title}}</h3>
-        <div class="impressum__block">
-          {{#each-in @model.address as |address details|}}
-            {{#each details as |detail|}}
-              <p>{{detail}}</p>
-            {{/each}}
-          {{/each-in}}
-        </div>
-        <div class="impressum__block">
-          {{#each-in @model.contact as |key value|}}
-            <p>{{key}}: {{value}}</p>
-          {{/each-in}}
-        </div>
-        <div class="impressum__block">
-          {{#each-in @model.tax as |key value|}}
-            <p><strong>{{key}}:</strong> {{value}}</p>
-          {{/each-in}}
-        </div>
-        <div class="impressum__block">
-          <p>{{@model.explainer}}</p>
-        </div>
-        {{#each-in @model.info as |key value|}}
+<section class="primary-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="impressum">
+          <h3>{{@model.title}}</h3>
           <div class="impressum__block">
-            <p><strong>{{key}}</strong></p>
-            <p>{{value}}</p>
+            {{#each-in @model.address as |address details|}}
+              {{#each details as |detail|}}
+                <p>{{detail}}</p>
+              {{/each}}
+            {{/each-in}}
           </div>
-        {{/each-in}}
+          <div class="impressum__block">
+            {{#each-in @model.contact as |key value|}}
+              <p>{{key}}: {{value}}</p>
+            {{/each-in}}
+          </div>
+          <div class="impressum__block">
+            {{#each-in @model.tax as |key value|}}
+              <p><strong>{{key}}:</strong> {{value}}</p>
+            {{/each-in}}
+          </div>
+          <div class="impressum__block">
+            <p>{{@model.explainer}}</p>
+          </div>
+          {{#each-in @model.info as |key value|}}
+            <div class="impressum__block">
+              <p><strong>{{key}}</strong></p>
+              <p>{{value}}</p>
+            </div>
+          {{/each-in}}
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>

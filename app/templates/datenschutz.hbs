@@ -1,35 +1,37 @@
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-9">
-      <div class="datenschutz">
-        <h3>{{@model.title}}</h3>
-        <div class="datenschutz__block">
-          <p>{{@model.explainer}}</p>
-        </div>
-        {{#each-in @model.details as |detail items|}}
+<section class="primary-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="datenschutz">
+          <h3>{{@model.title}}</h3>
           <div class="datenschutz__block">
-            <p><strong>{{detail}}</strong></p>
-            {{#each items as |item|}}
-              <p>&mdash; {{item}}</p>
+            <p>{{@model.explainer}}</p>
+          </div>
+          {{#each-in @model.details as |detail items|}}
+            <div class="datenschutz__block">
+              <p><strong>{{detail}}</strong></p>
+              {{#each items as |item|}}
+                <p>&mdash; {{item}}</p>
+              {{/each}}
+            </div>
+          {{/each-in}}
+          <div class="datenschutz__block">
+            <p>{{@model.datum}}</p>
+          </div>
+          <div class="datenschutz__block datenschutz__block--add-margin">
+            {{#each @model.points as |point indexPoint|}}
+              <p><strong>{{inc indexPoint}}. {{point.header}}</strong></p>
+              {{#each point.paragraphs as |paragraph indexParagraph|}}
+                {{#if (eq point.paragraphs.length 1)}}
+                  <p>{{paragraph}}</p>
+                {{else}}
+                  <p>{{inc indexPoint}}.{{inc indexParagraph}}. {{paragraph}}</p>
+                {{/if}}
+              {{/each}}
             {{/each}}
           </div>
-        {{/each-in}}
-        <div class="datenschutz__block">
-          <p>{{@model.datum}}</p>
-        </div>
-        <div class="datenschutz__block datenschutz__block--add-margin">
-          {{#each @model.points as |point indexPoint|}}
-            <p><strong>{{inc indexPoint}}. {{point.header}}</strong></p>
-            {{#each point.paragraphs as |paragraph indexParagraph|}}
-              {{#if (eq point.paragraphs.length 1)}}
-                <p>{{paragraph}}</p>
-              {{else}}
-                <p>{{inc indexPoint}}.{{inc indexParagraph}}. {{paragraph}}</p>
-              {{/if}}
-            {{/each}}
-          {{/each}}
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>

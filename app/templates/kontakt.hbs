@@ -1,44 +1,46 @@
-<div class="container">
-  <div class="contact">
-    <div class="row justify-content-center">
-      <div class="col-md-10 col-lg-8">
-        <div class="contact__intro-block">
-          <h5>{{@model.intro.note}}</h5>
-          <h3>{{@model.intro.title}}</h3>
-          <p class="text-center">{{@model.intro.text}}</p>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6 col-lg-4">
-        <div class="contact__details">
-          <h5>{{@model.details.telefon.title}}</h5>
-          <p class="text-center"><a href="{{@model.details.telefon.href}}" class="btn btn-outline-dark btn-sm custom-button custom-button__contact-details" role="button">{{@model.details.telefon.text}}</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="contact__details">
-          <h5>{{@model.details.email.title}}</h5>
-          <p class="text-center"><a href="{{@model.details.email.href}}" class="btn btn-outline-dark btn-sm custom-button custom-button__contact-details" role="button">{{@model.details.email.text}}</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-lg-6 col-xl-5">
-        <div class="contact__frame-block">
-          <div class="contact__studio-block">
-            <h5>{{@model.address.note}}</h5>
-            <h3>{{@model.address.title}}</h3>
-            <p>{{@model.address.street}}</p>
-            <p>{{@model.address.city}}</p>
+<section class="primary-padding">
+  <div class="container">
+    <div class="contact">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+          <div class="contact__intro-block">
+            <h5>{{@model.intro.note}}</h5>
+            <h3>{{@model.intro.title}}</h3>
+            <p class="text-center">{{@model.intro.text}}</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xl-7">
-        <div class="contact__map-block">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.347873837244!2d13.459081315809044!3d52.56331997982235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84dbe7141da4b%3A0x64c17bc286a9a8b0!2sAn+der+Industriebahn+12%2C+13088+Berlin!5e0!3m2!1spl!2sde!4v1538128774985" width="100%" height="384px" frameborder="0" style="border: solid .3em #cbcbcb;" allowfullscreen></iframe>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="contact__details">
+            <h5>{{@model.details.telefon.title}}</h5>
+            <p class="text-center"><a href="{{@model.details.telefon.href}}" class="btn btn-outline-dark btn-sm custom-button custom-button__contact-details" role="button">{{@model.details.telefon.text}}</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="contact__details">
+            <h5>{{@model.details.email.title}}</h5>
+            <p class="text-center"><a href="{{@model.details.email.href}}" class="btn btn-outline-dark btn-sm custom-button custom-button__contact-details" role="button">{{@model.details.email.text}}</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-xl-5">
+          <div class="contact__frame-block">
+            <div class="contact__studio-block">
+              <h5>{{@model.address.note}}</h5>
+              <h3>{{@model.address.title}}</h3>
+              <p>{{@model.address.street}}</p>
+              <p>{{@model.address.city}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-7">
+          <div class="contact__map-block">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.347873837244!2d13.459081315809044!3d52.56331997982235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84dbe7141da4b%3A0x64c17bc286a9a8b0!2sAn+der+Industriebahn+12%2C+13088+Berlin!5e0!3m2!1spl!2sde!4v1538128774985" width="100%" height="384px" frameborder="0" style="border: solid .3em #cbcbcb;" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>

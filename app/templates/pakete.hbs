@@ -1,29 +1,31 @@
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-10">
-      <div class="package">
-        <p class="text-center">{{@model.explainer}}</p>
+<section class="primary-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="package">
+          <p class="text-center">{{@model.explainer}}</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-md-11">
-      <div class="package">
-        <div class="package__nav">
-          <div class="row justify-content-center">
-            {{#each @model.categories as |category|}}
-              <BtnLink @route="pakete.{{category.route}}">{{category.name}}</BtnLink>
-            {{/each}}
+    <div class="row justify-content-center">
+      <div class="col-md-11">
+        <div class="package">
+          <div class="package__nav">
+            <div class="row justify-content-center">
+              {{#each @model.categories as |category|}}
+                <BtnLink @route="pakete.{{category.route}}">{{category.name}}</BtnLink>
+              {{/each}}
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col">
-      <div class="package">
-        {{outlet}}
+    <div class="row justify-content-center">
+      <div class="col">
+        <div class="package">
+          {{outlet}}
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
