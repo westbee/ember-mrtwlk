@@ -508,13 +508,34 @@ a:link.copyright-notice--no-decoration-link, a:visited.copyright-notice--no-deco
 
 .package__details {
   height: 100%;
-  background-color: #cbcbcb;
   padding: 3em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package__details--bg-babybauch {
+  background-image: url('/img/pakete/babybauch.jpg');
+  background-position: 0% 80%;
+}
+
+.package__details--bg-neugeborene {
+  background-image: url('/img/pakete/neugeborene.jpg');
+  background-position: center center;
+}
+
+.package__details--bg-kinder {
+  background-image: url('/img/pakete/kinder.jpg');
+}
+
+.package__details--bg-cakesmash {
+  background-image: url('/img/pakete/cakesmash.jpg');
+  background-position: 10% 30%;
 }
 
 .package__box {
   background-color: #fff;
   padding: 2em;
+  opacity: 0.89;
 }
 
 @media(min-width:576px) {

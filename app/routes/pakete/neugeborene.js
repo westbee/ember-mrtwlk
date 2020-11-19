@@ -3,6 +3,7 @@ import Route from '@ember/routing/route';
 export default class PaketeNeugeboreneRoute extends Route {
   async model() {
     return {
+      name: "neugeborene",
       title: "Neugeborene",
       description:
         "Nur in den ersten Tagen nach der Geburt sind diese speziellen Aufnahmen möglich. Das Shooting findet in meinem Studio statt und kann 2-4 Stunden dauern. Zwischen den einzelnen Bildern, bei denen Ihr Neugeborenes in verschiedene Positionen fotografiert wird, haben Sie noch genug Zeit zum Stillen, Wickeln und Kuscheln. Weitere Informationen und Tipps zur Vorbereitung erhalten Sie von mir bei der Buchung.",

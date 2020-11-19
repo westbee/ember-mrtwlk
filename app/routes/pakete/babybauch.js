@@ -3,6 +3,7 @@ import Route from '@ember/routing/route';
 export default class PaketeBabybauchRoute extends Route {
   async model() {
     return {
+      name: "babybauch",
       title: "Babybauch",
       description:
         "Die perfekte Zeit für ein Babybauch-Shooting ist ab der 30 SSW. Das Shooting findet im Studio bei mir statt oder bei schönem Wetter auch draußen. Das Fotoshooting dauert in etwa 1-2 Stunden. Ich habe einige Schwangerschaftskleider für werdende Mütter zur Auswahl sowie Accessoires. Beim Fotoshooting darf sehr gerne auch Papa mit dabei sein oder auch die größeren Geschwisterkinder.",

@@ -6,8 +6,8 @@
     </div>
   </div>
 </div>
-<div class="package__details">
-  <div class="row justify-content-center">
+<div class="package__details package__details--bg-{{@model.name}}">
+  <div class="row {{if isCake "justify-content-right" "justify-content-center"}}">
     <Package @model={{@model}} />
   </div>
 </div>

@@ -3,6 +3,7 @@ import Route from '@ember/routing/route';
 export default class PaketeKinderUndFamilienRoute extends Route {
   async model() {
     return {
+      name: "kinder",
       title: "Kinder & Familien",
       description:
         "Das beste Alter für ein Baby Fotoshooting ist ab dem 6-8 Monat, ab Sitzalter.  Von Vorteil ist es, wenn Ihr Kind selbständig sitzen kann. Dadurch sind zusätzliche Positionen möglich, die es ermöglichen noch mehr schöne Bilder einzufangen. Buchen Sie ihren Termin für Kinder und Familien Fotos bei mir im Studio und auch Outdoor.",
