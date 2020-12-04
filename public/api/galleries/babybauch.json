@@ -8,7 +8,9 @@
       "image": "/img/gallery/1.jpg",
       "link": "babybauch",
       "description":
-        "Wenn ein neues Leben heranwächst und das in einem selbst, ist das Gefühl unvergleichlich - Stolz und Vorfreude erfüllen eine werdende Mutter und bereiten sie auf das wohl größte Abenteuer ihres Lebens vor. Das sollte in einem ganz besonderen Rahmen verewigt werden!"
+        "Wenn ein neues Leben heranwächst und das in einem selbst, ist das Gefühl unvergleichlich - Stolz und Vorfreude erfüllen eine werdende Mutter und bereiten sie auf das wohl größte Abenteuer ihres Lebens vor. Das sollte in einem ganz besonderen Rahmen verewigt werden!",
+      "url": "/img/gallery/babybauch",
+      "pics": [1,2,3,4,5,6,7,8,9,10,11,12,13]
     }
   }
 }

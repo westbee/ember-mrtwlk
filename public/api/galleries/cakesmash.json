@@ -8,8 +8,9 @@
       "image": "/img/gallery/1.jpg",
       "link": "cakesmash",
       "description":
-        "Lorem ipsum give me a cake"
+        "Lorem ipsum give me a cake",
+      "url": "/img/gallery/cakesmash",
+      "pics": [1,2,3,4,5]
     }
-  }
   }
 }
