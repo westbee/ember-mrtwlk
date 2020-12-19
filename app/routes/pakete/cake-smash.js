@@ -4,9 +4,9 @@ export default class PaketeCakeSmashRoute extends Route {
   async model() {
     return {
       name: "cakesmash",
-      title: "Cake Smash",
+      title: "Cake Smash & Splash",
       description:
-        "Cake Smash Fotoshooting ist die neue Alternative zum Standard-Fotoshooting. Es ist auch für die Kinder ein riesen Spaß! Ein Cake-Smash-Shooting kann zum 1. Geburtstag oder auch rund um den 2. Geburtstag gebucht werden. Ich habe einige Schwangerschaftskleider für werdende Mütter zur Auswahl sowie Accessoires.",
+        "Cake Smash & Splash Fotoshooting ist die neue Alternative zum Standard-Fotoshooting. Es ist auch für die Kinder ein riesen Spaß! Ein Cake-Smash-Shooting kann zum 1. Geburtstag oder auch rund um den 2. Geburtstag gebucht werden. Ich habe einige Schwangerschaftskleider für werdende Mütter zur Auswahl sowie Accessoires.",
       packages: [
         {
           name: "BASIC",

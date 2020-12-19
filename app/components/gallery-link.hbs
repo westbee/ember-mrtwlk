@@ -1,5 +1,12 @@
-<h6 class="gallery__nav">
+<div class="row justify-content-center">
   {{#each @gallery as |gallery|}}
-    <LinkTo @route="bildergalerie.gallery" @model={{gallery}}>{{gallery.name}}</LinkTo>
+    <div class="sub-navigation">
+      <LinkTo @route="bildergalerie.gallery"
+              class="sub-navigation__link"
+              role="button"
+              @model={{gallery}}>
+              {{gallery.name}}
+      </LinkTo>
+    </div>
   {{/each}}
-</h6>
+</div>

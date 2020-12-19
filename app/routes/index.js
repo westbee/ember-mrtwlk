@@ -29,7 +29,7 @@ export default class IndexRoute extends Route {
           right: "img/highlight/4.jpg"
         },
         photos: {
-          quantity: "85",
+          quantity: "55",
           text: "Bilder",
           button: "View Gallery"
         }

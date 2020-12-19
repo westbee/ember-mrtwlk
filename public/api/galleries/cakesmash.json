@@ -5,11 +5,11 @@
     "attributes": {
       "name": "Cake Smash & Splash",
       "title": "Lorem ipsum",
-      "image": "/img/gallery/1.jpg",
+      "image": "img/gallery/1.jpg",
       "link": "cakesmash",
       "description":
         "Lorem ipsum give me a cake",
-      "url": "/img/gallery/cakesmash",
+      "url": "img/gallery/cakesmash",
       "pics": [1,2,3,4,5]
     }
   }

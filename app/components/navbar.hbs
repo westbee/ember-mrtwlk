@@ -1,13 +1,11 @@
 <BsNavbar
   class="bg-transparent bg-top {{if isScrolling "changeBg"}}"
   @type="light"
-  @position="fixed-top"
   @toggleBreakpoint="md"
-  {{on "scroll" this.bgNav}}
   @collapsed={{true}} as |navbar|>
   <div class="navbar-header">
-    {{navbar.toggle}}
-    <img src="img/logo_big.png" alt="Marta Wilk - Fotografin" class="brand-logo">
+    <navbar.toggle />
+    <img src="/img/logo_big.png" alt="Marta Wilk - Fotografin" class="brand-logo">
   </div>
   <navbar.content class="justify-content-end">
     <navbar.nav as |nav|>
@@ -17,12 +15,29 @@
       <nav.item>
         <nav.linkTo @route="fotografin">Über mich</nav.linkTo>
       </nav.item>
-      <nav.item>
+      {{!-- <nav.item>
         <nav.linkTo @route="bildergalerie">Bildergalerie</nav.linkTo>
-      </nav.item>
-      <nav.item>
+      </nav.item> --}}
+      <nav.dropdown as |dd|>
+        <dd.toggle>Bildergalerie <span class="caret"></span></dd.toggle>
+        <dd.menu as |ddm|>
+          {{#each @gallery as |gallery|}}
+            <ddm.item><ddm.linkTo @route="bildergalerie.gallery" @model={{gallery}} class="nav-link" {{on "click" navbar.collapse}}>{{gallery.name}}</ddm.linkTo></ddm.item>
+          {{/each}}
+        </dd.menu>
+      </nav.dropdown>
+      {{!-- <nav.item>
         <nav.linkTo @route="pakete">Pakete & Preise</nav.linkTo>
-      </nav.item>
+      </nav.item> --}}
+      <nav.dropdown as |dd|>
+        <dd.toggle>Pakete & Preise <span class="caret"></span></dd.toggle>
+        <dd.menu as |ddm|>
+          <ddm.item><ddm.linkTo {{on "click" navbar.collapse}} @route="pakete.babybauch" class="nav-link">Babybauch</ddm.linkTo></ddm.item>
+          <ddm.item><ddm.linkTo {{on "click" navbar.collapse}} @route="pakete.neugeborene" class="nav-link">Neugeborene</ddm.linkTo></ddm.item>
+          <ddm.item><ddm.linkTo {{on "click" navbar.collapse}} @route="pakete.cake-smash" class="nav-link">Cake Smash & Splash</ddm.linkTo></ddm.item>
+          <ddm.item><ddm.linkTo {{on "click" navbar.collapse}} @route="pakete.kinder-und-familien" class="nav-link">Kinder & Familien</ddm.linkTo></ddm.item>
+        </dd.menu>
+      </nav.dropdown>
       <nav.item>
         <nav.linkTo @route="kontakt">Kontakt & Buchung</nav.linkTo>
       </nav.item>

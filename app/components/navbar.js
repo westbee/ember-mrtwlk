@@ -8,6 +8,6 @@ export default class NavbarComponent extends Component {
   @tracked isScrolling = false;
 
   @action bgNav(){
-    this.isScrolling = true;
+    $(".navbar-toggler").addClass("collapsed");
   }
 }

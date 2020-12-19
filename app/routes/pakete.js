@@ -14,7 +14,7 @@ export default class PaketeRoute extends Route {
           route: "neugeborene"
         },
         {
-          name: "Cake Smash",
+          name: "Cake Smash & Splash",
           route: "cake-smash"
         },
         {
