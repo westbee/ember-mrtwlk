@@ -21,7 +21,7 @@ export default class IndexRoute extends Route {
       },
       highlights: {
         note: "Portfolio Highlights",
-        title: "Photos from Shooting | Mein Studio",
+        title: "Bilder von Shootings",
         imgUrls: {
           left: "img/highlight/1.jpg",
           top: "img/highlight/2.jpg",
