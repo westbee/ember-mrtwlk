@@ -20,8 +20,8 @@ export default class IndexRoute extends Route {
         button: "mehr über mich"
       },
       highlights: {
-        note: "Portfolio Highlights",
-        title: "Bilder von Shootings",
+        note: "Bilder von Shootings",
+        title: "Portfolio Highlights",
         imgUrls: {
           left: "img/highlight/1.jpg",
           top: "img/highlight/2.jpg",
