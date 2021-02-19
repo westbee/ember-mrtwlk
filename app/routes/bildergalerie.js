@@ -7,4 +7,8 @@ export default class BildergalerieRoute extends Route {
   async model() {
     return this.store.findAll('gallery');
   }
+
+  redirect(model,transition) {
+    this.transitionTo('bildergalerie.gallery', model.get('firstObject'));
+  }
 }
