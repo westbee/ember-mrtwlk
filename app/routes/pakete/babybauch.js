@@ -10,7 +10,7 @@ export default class PaketeBabybauchRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "199€",
+          price: "209€",
           details: [
             "1-2 Outfits",
             "Professionelle Bearbeitung",
@@ -21,7 +21,7 @@ export default class PaketeBabybauchRoute extends Route {
         },
         {
           name: "EXCLUSIVE",
-          price: "249€",
+          price: "259€",
           details: [
             "2-3 Outfits",
             "Professionelle Bearbeitung",
