@@ -519,7 +519,7 @@ a:hover.copyright-notice--no-decoration-link {
 .about-intro--bg {
   background-image: url('/img/about/1.jpg');
   background-repeat: no-repeat;
-  background-position: 60% 40%;
+  background-position: 60% 0%;
   background-size: cover;
 }
 
