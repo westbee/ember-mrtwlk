@@ -16,7 +16,8 @@ export default class PaketeNeugeboreneRoute extends Route {
             "versch. Outfits & Accessoires",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
-            "5 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)"
+            "5 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
+            "Bilder mit den Eltern und Geschwistern inclusive"
           ],
           extra: "jedes weitere Bild 15€"
         },
@@ -28,7 +29,8 @@ export default class PaketeNeugeboreneRoute extends Route {
             "versch. Outfits & Accessoires",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
-            "10 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)"
+            "10 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
+            "Bilder mit den Eltern und Geschwistern inclusive"
           ],
           extra: "jedes weitere Bild 10€"
         }

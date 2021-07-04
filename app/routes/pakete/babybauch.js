@@ -15,7 +15,8 @@ export default class PaketeBabybauchRoute extends Route {
             "1-2 Outfits",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
-            "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)"
+            "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
+            "Fotos mit Partner und Geschwisterkindern inclusive"
           ],
           extra: "jedes weitere Bild 15€"
         },
@@ -26,7 +27,8 @@ export default class PaketeBabybauchRoute extends Route {
             "2-3 Outfits",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
-            "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)"
+            "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
+            "Fotos mit Partner und Geschwisterkindern inclusive"
           ],
           extra: "jedes weitere Bild 10€"
         }

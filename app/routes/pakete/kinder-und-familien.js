@@ -12,9 +12,10 @@ export default class PaketeKinderUndFamilienRoute extends Route {
           name: "BASIC",
           price: "229€",
           details: [
-            "7 retuschierte Bilder einschließlich 1 Familienaufnahme (digital auf USB Stick & als Abzug 13*19)",
+            "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
-            "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)"
+            "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
+            "Bilder mit den Eltern und Geschwistern inclusive"
           ],
           extra: "jedes weitere Bild 15€"
         },
@@ -22,9 +23,10 @@ export default class PaketeKinderUndFamilienRoute extends Route {
           name: "EXCLUSIVE",
           price: "279€",
           details: [
-            "12 retuschierte Bilder einschließlich 2 Familienaufnahmen (digital auf USB Stick & als Abzug 13*19)",
+            "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
-            "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)"
+            "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
+            "Bilder mit den Eltern und Geschwistern inclusive"
           ],
           extra: "jedes weitere Bild 10€"
         }
