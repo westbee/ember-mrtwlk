@@ -10,7 +10,7 @@ export default class PaketeNeugeboreneRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "259€",
+          price: "269€",
           details: [
             "1-2 Outfits",
             "versch. Outfits & Accessoires",
@@ -23,7 +23,7 @@ export default class PaketeNeugeboreneRoute extends Route {
         },
         {
           name: "EXCLUSIVE",
-          price: "329€",
+          price: "339€",
           details: [
             "2-3 Outfits",
             "versch. Outfits & Accessoires",
