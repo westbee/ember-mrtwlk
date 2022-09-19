@@ -10,7 +10,7 @@ export default class PaketeCakeSmashRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "279€",
+          price: "289€",
           details: [
             "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
