@@ -1,4 +1,4 @@
-import Route from '@ember/routing/route';
+import Route from "@ember/routing/route";
 
 export default class PaketeBabybauchRoute extends Route {
   async model() {
@@ -10,29 +10,29 @@ export default class PaketeBabybauchRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "249€",
+          price: "269€",
           details: [
             "1-2 Outfits",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
             "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
-            "Fotos mit Partner und Geschwisterkindern inclusive"
+            "Fotos mit Partner und Geschwisterkindern inclusive",
           ],
-          extra: "jedes weitere Bild 15€"
+          extra: "jedes weitere Bild 15€",
         },
         {
           name: "EXCLUSIVE",
-          price: "299€",
+          price: "319€",
           details: [
             "2-3 Outfits",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
             "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
-            "Fotos mit Partner und Geschwisterkindern inclusive"
+            "Fotos mit Partner und Geschwisterkindern inclusive",
           ],
-          extra: "jedes weitere Bild 10€"
-        }
-      ]
-    }
+          extra: "jedes weitere Bild 10€",
+        },
+      ],
+    };
   }
 }

@@ -1,4 +1,4 @@
-import Route from '@ember/routing/route';
+import Route from "@ember/routing/route";
 
 export default class PaketeCakeSmashRoute extends Route {
   async model() {
@@ -10,15 +10,15 @@ export default class PaketeCakeSmashRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "259€",
+          price: "279€",
           details: [
             "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
-            "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)"
+            "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
           ],
-          extra: "jedes weitere Bild 15€"
-        }
-      ]
-    }
+          extra: "jedes weitere Bild 15€",
+        },
+      ],
+    };
   }
 }

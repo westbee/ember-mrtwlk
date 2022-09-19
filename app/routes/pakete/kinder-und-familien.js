@@ -1,4 +1,4 @@
-import Route from '@ember/routing/route';
+import Route from "@ember/routing/route";
 
 export default class PaketeKinderUndFamilienRoute extends Route {
   async model() {
@@ -10,27 +10,27 @@ export default class PaketeKinderUndFamilienRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "249€",
+          price: "269€",
           details: [
             "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
-            "Bilder mit den Eltern und Geschwistern inclusive"
+            "Bilder mit den Eltern und Geschwistern inclusive",
           ],
-          extra: "jedes weitere Bild 15€"
+          extra: "jedes weitere Bild 15€",
         },
         {
           name: "EXCLUSIVE",
-          price: "299€",
+          price: "319€",
           details: [
             "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
             "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
-            "Bilder mit den Eltern und Geschwistern inclusive"
+            "Bilder mit den Eltern und Geschwistern inclusive",
           ],
-          extra: "jedes weitere Bild 10€"
-        }
-      ]
-    }
+          extra: "jedes weitere Bild 10€",
+        },
+      ],
+    };
   }
 }
