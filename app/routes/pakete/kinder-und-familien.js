@@ -10,7 +10,7 @@ export default class PaketeKinderUndFamilienRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "279€",
+          price: "299€",
           details: [
             "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
@@ -21,7 +21,7 @@ export default class PaketeKinderUndFamilienRoute extends Route {
         },
         {
           name: "EXCLUSIVE",
-          price: "329€",
+          price: "349€",
           details: [
             "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Professionelle Bearbeitung",
