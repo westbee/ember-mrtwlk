@@ -10,7 +10,7 @@ export default class PaketeBabybauchRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "299€",
+          price: "350€",
           details: [
             "1-2 Outfits",
             "Professionelle Bearbeitung",
@@ -18,11 +18,11 @@ export default class PaketeBabybauchRoute extends Route {
             "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Fotos mit Partner und Geschwisterkindern inclusive",
           ],
-          extra: "jedes weitere Bild 15€",
+          extra: "jedes weitere Bild 20€",
         },
         {
           name: "EXCLUSIVE",
-          price: "349€",
+          price: "400€",
           details: [
             "2-3 Outfits",
             "Professionelle Bearbeitung",
@@ -30,7 +30,7 @@ export default class PaketeBabybauchRoute extends Route {
             "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Fotos mit Partner und Geschwisterkindern inclusive",
           ],
-          extra: "jedes weitere Bild 10€",
+          extra: "jedes weitere Bild 15€",
         },
       ],
     };
