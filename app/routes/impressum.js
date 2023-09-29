@@ -5,7 +5,7 @@ export default class ImpressumRoute extends Route {
     return {
       title: "Impressum",
       address: {
-        details: ["Marta Wilk", "Konrad-Wolf-Str.62a", "13055 Berlin"]
+        details: ["Marta Wilk", "Murtzaner Ring 36", "12681 Berlin"]
       },
       contact: {
         "Telefon": "0176 49370962",
