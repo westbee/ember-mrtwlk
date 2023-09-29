@@ -10,7 +10,7 @@ export default class PaketeNeugeboreneRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "319€",
+          price: "370€",
           details: [
             "1-2 Outfits",
             "versch. Outfits & Accessoires",
@@ -19,11 +19,11 @@ export default class PaketeNeugeboreneRoute extends Route {
             "5 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Bilder mit den Eltern und Geschwistern inclusive",
           ],
-          extra: "jedes weitere Bild 15€",
+          extra: "jedes weitere Bild 20€",
         },
         {
           name: "EXCLUSIVE",
-          price: "389€",
+          price: "460€",
           details: [
             "2-3 Outfits",
             "versch. Outfits & Accessoires",
@@ -32,7 +32,7 @@ export default class PaketeNeugeboreneRoute extends Route {
             "10 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Bilder mit den Eltern und Geschwistern inclusive",
           ],
-          extra: "jedes weitere Bild 10€",
+          extra: "jedes weitere Bild 15€",
         },
       ],
     };
