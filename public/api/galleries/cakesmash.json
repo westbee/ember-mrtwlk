@@ -6,10 +6,10 @@
       "name": "Cake Smash & Splash",
       "title": "die erste Torte zum ersten Geburtstag mit Spaßfaktor",
       "link": "cakesmash",
-      "description":
-        "Diese unvergesslichen Momente eines Cake Smash Fotoshootings halte ich für euch mit professionellen Fotos in meinem Fotostudio fest. Nach der „Mini Tortenschlacht“ kommt das Geburtstagkind in eine spezielle Badewanne entweder zum ausgiebigen Schaumbad, oder in ein schönes Milchbad. Natürlich entstehen hier ganz besonders süße Fotos!",
+      "description": "Diese unvergesslichen Momente eines Cake Smash Fotoshootings halte ich für euch mit professionellen Fotos in meinem Fotostudio fest. Nach der „Mini Tortenschlacht“ kommt das Geburtstagkind in eine spezielle Badewanne entweder zum ausgiebigen Schaumbad, oder in ein schönes Milchbad. Natürlich entstehen hier ganz besonders süße Fotos!",
       "url": "img/gallery/cakesmash",
-      "pics": [1,2,3,4,5]
+      "picurl": "",
+      "pics": [1, 2, 3, 4, 5]
     }
   }
 }

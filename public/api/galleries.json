@@ -7,10 +7,12 @@
         "name": "Babybauch",
         "title": "die schönste Zeit im Leben einer Frau",
         "link": "babybauch",
-        "description":
-          "Wenn ein neues Leben heranwächst und das in einem selbst, ist das Gefühl unvergleichlich - Stolz und Vorfreude erfüllen eine werdende Mutter und bereiten sie auf das wohl größte Abenteuer ihres Lebens vor. Das sollte in einem ganz besonderen Rahmen verewigt werden!",
-          "url": "img/gallery/babybauch",
-          "pics": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+        "description": "Wenn ein neues Leben heranwächst und das in einem selbst, ist das Gefühl unvergleichlich - Stolz und Vorfreude erfüllen eine werdende Mutter und bereiten sie auf das wohl größte Abenteuer ihres Lebens vor. Das sollte in einem ganz besonderen Rahmen verewigt werden!",
+        "url": "img/gallery/babybauch",
+        "picurl": "babybauch",
+        "pics": [
+          19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+        ]
       }
     },
     {
@@ -20,10 +22,13 @@
         "name": "Neugeborene",
         "title": "der beste Zeitpunkt für Eure Neugeborenenbilder",
         "link": "neugeborene",
-        "description":
-          "Ist dein Neugeborenes auf der Welt und noch nicht älter als 14 Tage, dann können wir wunderschöne und einmalige Fotos von deinem Baby entstehen lassen. Ein Neugeborenen-Shooting, um den Zauber dieses neuen Lebens festzuhalten!",
-          "url": "img/gallery/neugeborene",
-          "pics": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+        "description": "Ist dein Neugeborenes auf der Welt und noch nicht älter als 14 Tage, dann können wir wunderschöne und einmalige Fotos von deinem Baby entstehen lassen. Ein Neugeborenen-Shooting, um den Zauber dieses neuen Lebens festzuhalten!",
+        "url": "img/gallery/neugeborene",
+        "picurl": "neugeborene",
+        "pics": [
+          21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3,
+          2, 1
+        ]
       }
     },
     {
@@ -33,10 +38,10 @@
         "name": "Cake Smash & Splash",
         "title": "die erste Torte zum ersten Geburtstag mit Spaßfaktor",
         "link": "cakesmash",
-        "description":
-          "Diese unvergesslichen Momente eines Cake Smash Fotoshootings halte ich für euch mit professionellen Fotos in meinem Fotostudio fest. Nach der „Mini Tortenschlacht“ kommt das Geburtstagkind in eine spezielle Badewanne entweder zum ausgiebigen Schaumbad, oder in ein schönes Milchbad. Natürlich entstehen hier ganz besonders süße Fotos!",
+        "description": "Diese unvergesslichen Momente eines Cake Smash Fotoshootings halte ich für euch mit professionellen Fotos in meinem Fotostudio fest. Nach der „Mini Tortenschlacht“ kommt das Geburtstagkind in eine spezielle Badewanne entweder zum ausgiebigen Schaumbad, oder in ein schönes Milchbad. Natürlich entstehen hier ganz besonders süße Fotos!",
         "url": "img/gallery/cakesmash",
-        "pics": [1,2,3,4,5]
+        "picurl": "",
+        "pics": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -46,10 +51,13 @@
         "name": "Kinder & Familien",
         "title": "einzigartige Andenken für viele Jahre",
         "link": "kinder-und-familien",
-        "description":
-          "Erscheint ein kleiner Mensch auf Erden, ist dies der ideale Zeitpunkt, um diesen Moment einzufangen, weil Bilder einzigartige Andenken für die Zukunft sind. Egal ob klein oder groß, ob allein oder mit der ganzen Familie - in ungezwungener, lockerer Atmosphäre entstehen hier bleibende Erinnerungen für Eltern, Verwandte, Freunde und Liebende.",
+        "description": "Erscheint ein kleiner Mensch auf Erden, ist dies der ideale Zeitpunkt, um diesen Moment einzufangen, weil Bilder einzigartige Andenken für die Zukunft sind. Egal ob klein oder groß, ob allein oder mit der ganzen Familie - in ungezwungener, lockerer Atmosphäre entstehen hier bleibende Erinnerungen für Eltern, Verwandte, Freunde und Liebende.",
         "url": "img/gallery/kinder",
-        "pics": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        "picurl": "familie",
+        "pics": [
+          32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16,
+          15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+        ]
       }
     }
   ]
