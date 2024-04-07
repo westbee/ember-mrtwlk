@@ -1,4 +1,4 @@
-import Model, { attr } from '@ember-data/model';
+import Model, { attr } from "@ember-data/model";
 
 export default class GalleryModel extends Model {
   @attr name;
@@ -7,5 +7,6 @@ export default class GalleryModel extends Model {
   @attr link;
   @attr description;
   @attr url;
+  @attr picurl;
   @attr pics;
 }
