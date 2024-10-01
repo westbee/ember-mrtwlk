@@ -1,6 +1,5 @@
 {{#each @gallery.pics as |pic|}}
   <div class="card">
-    {{log "@gallery.picurl" @gallery.picurl}}
     {{#if @gallery.picurl}}
       <img
         src="/{{@gallery.url}}/{{@gallery.picurl}}_{{pic}}.jpg"

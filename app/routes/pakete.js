@@ -1,27 +1,28 @@
-import Route from '@ember/routing/route';
+import Route from "@ember/routing/route";
 
 export default class PaketeRoute extends Route {
   async model() {
     return {
-      explainer: "Eure Wünsche und Vorstellungen besprechen wir im Vorfeld und Ihr entscheidet Euch, welches Paket Ihr buchen möchtet. Im Anschluss an das Fotoshooting wird jedes Bild von mir individuell und professionell bearbeitet. Die Bilder werden dann in einer persönlichen Online-Galerie bereitgestellt und gedruckt im Format 13x19.",
+      explainer:
+        "Eure Wünsche und Vorstellungen besprechen wir im Vorfeld und Ihr entscheidet Euch, welches Paket Ihr buchen möchtet. Im Anschluss an das Fotoshooting wird jedes Bild von mir individuell und professionell bearbeitet. Die Bilder werden dann in einer persönlichen Online-Galerie bereitgestellt und gedruckt im Format 13x19.",
       categories: [
         {
           name: "Babybauch",
-          route: "babybauch"
+          route: "babybauch",
         },
         {
           name: "Neugeborene",
-          route: "neugeborene"
+          route: "neugeborene",
         },
         {
-          name: "Cake Smash & Splash",
-          route: "cake-smash"
+          name: "Embrace Yourself",
+          route: "embrace-yourself",
         },
         {
           name: "Kinder & Familien",
-          route: "kinder-und-familien"
-        }
-      ]
-    }
+          route: "kinder-und-familien",
+        },
+      ],
+    };
   }
 }
