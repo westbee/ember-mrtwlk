@@ -1,6 +1,6 @@
-import EmberRouter from '@ember/routing/router';
-import config from './config/environment';
-import { inject as service } from '@ember/service';
+import EmberRouter from "@ember/routing/router";
+import config from "./config/environment";
+import { inject as service } from "@ember/service";
 
 export default class Router extends EmberRouter {
   location = config.locationType;
@@ -11,24 +11,24 @@ export default class Router extends EmberRouter {
   init() {
     super.init(...arguments);
 
-    this.on('routeDidChange', function() {
+    this.on("routeDidChange", function () {
       window.scrollTo(0, 0);
     });
   }
 }
 
-Router.map(function() {
-  this.route('impressum');
-  this.route('datenschutz');
-  this.route('fotografin');
-  this.route('kontakt');
-  this.route('pakete', function() {
-    this.route('babybauch');
-    this.route('neugeborene');
-    this.route('kinder-und-familien');
-    this.route('cake-smash');
+Router.map(function () {
+  this.route("impressum");
+  this.route("datenschutz");
+  this.route("fotografin");
+  this.route("kontakt");
+  this.route("pakete", function () {
+    this.route("babybauch");
+    this.route("neugeborene");
+    this.route("kinder-und-familien");
+    this.route("embrace-yourself");
   });
-  this.route('bildergalerie', function() {
-    this.route('gallery', { path: '/:gallery_id' });
+  this.route("bildergalerie", function () {
+    this.route("gallery", { path: "/:gallery_id" });
   });
 });
