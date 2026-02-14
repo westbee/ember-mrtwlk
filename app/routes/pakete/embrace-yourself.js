@@ -10,7 +10,7 @@ export default class PaketeEmbraceYourselfRoute extends Route {
       packages: [
         {
           name: "BASIC",
-          price: "350€",
+          price: "380€",
           details: [
             "7 retuschierte Bilder (zum Download und als Abzug in Größe 13*19 cm)",
             "Professionelle Bearbeitung",
@@ -20,7 +20,7 @@ export default class PaketeEmbraceYourselfRoute extends Route {
         },
         {
           name: "EXCLUSIVE",
-          price: "400€",
+          price: "430€",
           details: [
             "12 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
             "Exklusive Bearbeitung für erstklassige Ergebnisse",
