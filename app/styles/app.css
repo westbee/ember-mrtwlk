@@ -78,7 +78,8 @@ nav {
   color: var(--color-primary);
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
   font-weight: 500;
 }
 
@@ -315,7 +316,8 @@ a.sub-navigation__link:active {
   text-decoration: none;
 }
 
-a.sub-navigation__link:hover {
+a.sub-navigation__link:hover,
+a.sub-navigation__link:focus {
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
@@ -334,7 +336,8 @@ a.sub-navigation__link:hover {
   color: var(--color-primary);
 }
 
-.custom-button:hover {
+.custom-button:hover,
+.custom-button:focus {
   color: var(--color-bg-accent);
   background-color: var(--color-primary);
   border-color: var(--color-primary);
