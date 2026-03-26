@@ -24,6 +24,35 @@
     {{content-for "head-footer"}}
   </head>
   <body>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PhotographyBusiness",
+      "name": "Marta Wilk Photography",
+      "url": "https://martawilkphotography.com",
+      "image": "https://martawilkphotography.com/img/social-img.jpg",
+      "description": "Ich bin Fotografin aus Berlin. Mit großer Freude fotografiere ich Neugeborenen, Kinder, Familien, zukünftige Mütter mit Babybauch.",
+      "telephone": "+4917649370962",
+      "email": "marta.wilk.photo@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "An der Industriebahn 12",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "postalCode": "13088",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.563320,
+        "longitude": 13.461260
+      },
+      "sameAs": [
+        "https://www.facebook.com/marta.wilk.photo",
+        "https://www.instagram.com/martawilkphotography/"
+      ]
+    }
+    </script>
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
