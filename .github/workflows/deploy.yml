@@ -32,7 +32,7 @@ jobs:
           printf "User-agent: *\nDisallow: /\n" > ./dist/robots.txt
 
       - name: Deploy via FTPS
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.STRATO_HOST }}
           username: ${{ secrets.STRATO_USERNAME }}
