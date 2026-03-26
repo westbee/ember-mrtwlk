@@ -1,0 +1,44 @@
+{
+  "galleries": [
+    {
+      "id": "babybauch",
+      "name": "Babybauch",
+      "title": "die schönste Zeit im Leben einer Frau",
+      "link": "babybauch",
+      "description": "Wenn ein neues Leben heranwächst und das in einem selbst, ist das Gefühl unvergleichlich - Stolz und Vorfreude erfüllen eine werdende Mutter und bereiten sie auf das wohl größte Abenteuer ihres Lebens vor. Das sollte in einem ganz besonderen Rahmen verewigt werden!",
+      "url": "img/gallery/babybauch"
+    },
+    {
+      "id": "neugeborene",
+      "name": "Neugeborene",
+      "title": "der beste Zeitpunkt für Eure Neugeborenenbilder",
+      "link": "neugeborene",
+      "description": "Ist dein Neugeborenes auf der Welt und noch nicht älter als 14 Tage, dann können wir wunderschöne und einmalige Fotos von deinem Baby entstehen lassen. Ein Neugeborenen-Shooting, um den Zauber dieses neuen Lebens festzuhalten!",
+      "url": "img/gallery/neugeborene"
+    },
+    {
+      "id": "embrace-yourself",
+      "name": "Embrace Yourself",
+      "title": "entdecke deine wahre Schönheit",
+      "link": "embrace-yourself",
+      "description": "Lass deine natürliche Schönheit und innere Stärke in jedem Bild erstrahlen. Bei meinem Shooting wird jeder Moment so eingefangen, dass deine Persönlichkeit perfekt zur Geltung kommt.",
+      "url": "img/gallery/embrace-yourself"
+    },
+    {
+      "id": "kinder-und-familien",
+      "name": "Kinder & Familien",
+      "title": "einzigartige Andenken für viele Jahre",
+      "link": "kinder-und-familien",
+      "description": "Erscheint ein kleiner Mensch auf Erden, ist dies der ideale Zeitpunkt, um diesen Moment einzufangen, weil Bilder einzigartige Andenken für die Zukunft sind. Egal ob klein oder groß, ob allein oder mit der ganzen Familie - in ungezwungener, lockerer Atmosphäre entstehen hier bleibende Erinnerungen für Eltern, Verwandte, Freunde und Liebende.",
+      "url": "img/gallery/kinder"
+    },
+    {
+      "id": "fotoprojekte",
+      "name": "#stilleninberlin",
+      "title": "über Nähe, Weiblichkeit und Alltag in Berlin",
+      "link": "fotoprojekte",
+      "description": "Stillen ist mehr als ein Vorgang – es ist Berührung, Atem, ein Blick. Ein Moment des Innehaltens.<br>Mit <b>#stilleninberlin</b> zeige ich Mütter beim Stillen im Leben der Stadt. Berlin ist der Rahmen – die eigentliche Geschichte ist die Nähe zwischen Mutter und Kind. Ohne Idealisierung, ohne Tabu. Manchmal ruhig, manchmal müde, manchmal voller Lachen. Immer echt. Ein Projekt über weibliche Stärke und Zartheit.",
+      "url": "img/gallery/fotoprojekte"
+    }
+  ]
+}

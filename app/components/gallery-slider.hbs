@@ -1,12 +1,9 @@
-{{#each @gallery.pics as |pic|}}
+{{#each @gallery.images as |imageFile|}}
   <div class="card">
-    {{#if @gallery.picurl}}
-      <img
-        src="/{{@gallery.url}}/{{@gallery.picurl}}_{{pic}}.jpg"
-        class="img-fluid"
-      />
-    {{else}}
-      <img src="/{{@gallery.url}}/{{pic}}.jpg" class="img-fluid" />
-    {{/if}}
+    <img
+      src="/{{@gallery.url}}/{{imageFile}}"
+      class="img-fluid"
+      loading="lazy"
+    />
   </div>
 {{/each}}

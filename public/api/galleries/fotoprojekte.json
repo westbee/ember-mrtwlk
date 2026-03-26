@@ -1,16 +1,23 @@
 {
-    "data": {
-      "type": "galleries",
-      "id": "fotoprojekte",
-      "attributes": {
-        "name": "#stilleninberlin",
-        "title": "über Nähe, Weiblichkeit und Alltag in Berlin",
-        "link": "fotoprojekte",
-        "description": "Stillen ist mehr als ein Vorgang – es ist Berührung, Atem, ein Blick. Ein Moment des Innehaltens.<br>Mit <b>#stilleninberlin</b> zeige ich Mütter beim Stillen im Leben der Stadt. Berlin ist der Rahmen – die eigentliche Geschichte ist die Nähe zwischen Mutter und Kind. Ohne Idealisierung, ohne Tabu. Manchmal ruhig, manchmal müde, manchmal voller Lachen. Immer echt. Ein Projekt über weibliche Stärke und Zartheit.",
-        "url": "img/gallery/fotoprojekte",
-        "picurl": "projekte",
-        "pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
-      }
+  "data": {
+    "type": "galleries",
+    "id": "fotoprojekte",
+    "attributes": {
+      "name": "#stilleninberlin",
+      "title": "über Nähe, Weiblichkeit und Alltag in Berlin",
+      "link": "fotoprojekte",
+      "description": "Stillen ist mehr als ein Vorgang – es ist Berührung, Atem, ein Blick. Ein Moment des Innehaltens.<br>Mit <b>#stilleninberlin</b> zeige ich Mütter beim Stillen im Leben der Stadt. Berlin ist der Rahmen – die eigentliche Geschichte ist die Nähe zwischen Mutter und Kind. Ohne Idealisierung, ohne Tabu. Manchmal ruhig, manchmal müde, manchmal voller Lachen. Immer echt. Ein Projekt über weibliche Stärke und Zartheit.",
+      "url": "img/gallery/fotoprojekte",
+      "images": [
+        "projekte_1.jpg", "projekte_2.jpg", "projekte_3.jpg", "projekte_4.jpg",
+        "projekte_5.jpg", "projekte_6.jpg", "projekte_7.jpg", "projekte_8.jpg",
+        "projekte_9.jpg", "projekte_10.jpg", "projekte_11.jpg", "projekte_12.jpg",
+        "projekte_13.jpg", "projekte_14.jpg", "projekte_15.jpg", "projekte_16.jpg",
+        "projekte_17.jpg", "projekte_18.jpg", "projekte_19.jpg", "projekte_20.jpg",
+        "projekte_21.jpg", "projekte_22.jpg", "projekte_23.jpg", "projekte_24.jpg",
+        "projekte_25.jpg", "projekte_26.jpg", "projekte_27.jpg", "projekte_28.jpg",
+        "projekte_29.jpg", "projekte_30.jpg"
+      ]
     }
   }
-  
+}

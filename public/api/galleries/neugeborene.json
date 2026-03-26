@@ -8,9 +8,13 @@
       "link": "neugeborene",
       "description": "Ist dein Neugeborenes auf der Welt und noch nicht älter als 14 Tage, dann können wir wunderschöne und einmalige Fotos von deinem Baby entstehen lassen. Ein Neugeborenen-Shooting, um den Zauber dieses neuen Lebens festzuhalten!",
       "url": "img/gallery/neugeborene",
-      "picurl": "neugeborene",
-      "pics": [
-        27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 2, 1
+      "images": [
+        "neugeborene_27.jpg", "neugeborene_26.jpg", "neugeborene_25.jpg", "neugeborene_24.jpg",
+        "neugeborene_23.jpg", "neugeborene_22.jpg", "neugeborene_21.jpg", "neugeborene_20.jpg",
+        "neugeborene_19.jpg", "neugeborene_18.jpg", "neugeborene_17.jpg", "neugeborene_16.jpg",
+        "neugeborene_15.jpg", "neugeborene_14.jpg", "neugeborene_13.jpg", "neugeborene_12.jpg",
+        "neugeborene_11.jpg", "neugeborene_10.jpg", "neugeborene_9.jpg", "neugeborene_8.jpg",
+        "neugeborene_2.jpg", "neugeborene_1.jpg"
       ]
     }
   }
