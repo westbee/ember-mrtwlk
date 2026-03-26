@@ -1,0 +1,16 @@
+{
+    "data": {
+      "type": "galleries",
+      "id": "fotoprojekte",
+      "attributes": {
+        "name": "#stilleninberlin",
+        "title": "über Nähe, Weiblichkeit und Alltag in Berlin",
+        "link": "fotoprojekte",
+        "description": "Stillen ist mehr als ein Vorgang – es ist Berührung, Atem, ein Blick. Ein Moment des Innehaltens.<br>Mit <b>#stilleninberlin</b> zeige ich Mütter beim Stillen im Leben der Stadt. Berlin ist der Rahmen – die eigentliche Geschichte ist die Nähe zwischen Mutter und Kind. Ohne Idealisierung, ohne Tabu. Manchmal ruhig, manchmal müde, manchmal voller Lachen. Immer echt. Ein Projekt über weibliche Stärke und Zartheit.",
+        "url": "img/gallery/fotoprojekte",
+        "picurl": "projekte",
+        "pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+      }
+    }
+  }
+  
