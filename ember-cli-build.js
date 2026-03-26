@@ -9,7 +9,8 @@ module.exports = function(defaults) {
       'importBootstrapCSS': true
     },
     fingerprint: {
-      enabled: false
+      enabled: true,
+      exclude: ['img/']
     }
   });
 
