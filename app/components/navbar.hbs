@@ -33,7 +33,13 @@
                 @model={{gallery}}
                 class="nav-link"
                 {{on "click" navbar.collapse}}
-              >{{gallery.name}}</ddm.linkTo></ddm.item>
+              >
+              {{#unless (eq gallery.id 'fotoprojekte')}}
+                {{gallery.name}}
+              {{else}}
+                Fotoprojekte
+              {{/unless}}
+              </ddm.linkTo></ddm.item>
           {{/each}}
         </dd.menu>
       </nav.dropdown>

@@ -1,11 +1,18 @@
 <div class="row justify-content-center">
   {{#each @gallery as |gallery|}}
     <div class="sub-navigation">
-      <LinkTo @route="bildergalerie.gallery"
-              class="sub-navigation__link"
-              role="button"
-              @model={{gallery}}>
-              {{gallery.name}}
+      <LinkTo 
+        @route="bildergalerie.gallery"
+        @activeClass="sub-navigation__link--active"
+        class="sub-navigation__link"
+        role="button"
+        @model={{gallery}}
+      >
+        {{#unless (eq gallery.id 'fotoprojekte')}}
+          {{gallery.name}}
+        {{else}}
+          Fotoprojekte
+        {{/unless}}
       </LinkTo>
     </div>
   {{/each}}
