@@ -21,9 +21,6 @@
       <nav.item>
         <nav.linkTo @route="fotografin">Über mich</nav.linkTo>
       </nav.item>
-      {{! <nav.item>
-        <nav.linkTo @route="bildergalerie">Bildergalerie</nav.linkTo>
-      </nav.item> }}
       <nav.dropdown as |dd|>
         <dd.toggle>Bildergalerie <span class="caret"></span></dd.toggle>
         <dd.menu as |ddm|>
@@ -43,9 +40,6 @@
           {{/each}}
         </dd.menu>
       </nav.dropdown>
-      {{! <nav.item>
-        <nav.linkTo @route="pakete">Pakete & Preise</nav.linkTo>
-      </nav.item> }}
       <nav.dropdown as |dd|>
         <dd.toggle>Pakete & Preise <span class="caret"></span></dd.toggle>
         <dd.menu as |ddm|>
