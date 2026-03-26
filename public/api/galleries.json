@@ -9,9 +9,15 @@
         "link": "babybauch",
         "description": "Wenn ein neues Leben heranwächst und das in einem selbst, ist das Gefühl unvergleichlich - Stolz und Vorfreude erfüllen eine werdende Mutter und bereiten sie auf das wohl größte Abenteuer ihres Lebens vor. Das sollte in einem ganz besonderen Rahmen verewigt werden!",
         "url": "img/gallery/babybauch",
-        "picurl": "babybauch",
-        "pics": [
-          123, 122, 120, 119, 118, 117, 116, 115, 114, 113, 112, 111, 110, 19, 18, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 4, 2, 1
+        "images": [
+          "babybauch_123.jpg", "babybauch_122.jpg", "babybauch_121.jpg", "babybauch_120.jpg",
+          "babybauch_119.jpg", "babybauch_118.jpg", "babybauch_117.jpg", "babybauch_116.jpg",
+          "babybauch_115.jpg", "babybauch_114.jpg", "babybauch_113.jpg", "babybauch_112.jpg",
+          "babybauch_111.jpg", "babybauch_110.jpg", "babybauch_19.jpg", "babybauch_18.jpg",
+          "babybauch_17.jpg", "babybauch_15.jpg", "babybauch_14.jpg", "babybauch_13.jpg",
+          "babybauch_12.jpg", "babybauch_11.jpg", "babybauch_10.jpg", "babybauch_9.jpg",
+          "babybauch_8.jpg", "babybauch_7.jpg", "babybauch_4.jpg", "babybauch_2.jpg",
+          "babybauch_1.jpg"
         ]
       }
     },
@@ -24,9 +30,13 @@
         "link": "neugeborene",
         "description": "Ist dein Neugeborenes auf der Welt und noch nicht älter als 14 Tage, dann können wir wunderschöne und einmalige Fotos von deinem Baby entstehen lassen. Ein Neugeborenen-Shooting, um den Zauber dieses neuen Lebens festzuhalten!",
         "url": "img/gallery/neugeborene",
-        "picurl": "neugeborene",
-        "pics": [
-          27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 2, 1
+        "images": [
+          "neugeborene_27.jpg", "neugeborene_26.jpg", "neugeborene_25.jpg", "neugeborene_24.jpg",
+          "neugeborene_23.jpg", "neugeborene_22.jpg", "neugeborene_21.jpg", "neugeborene_20.jpg",
+          "neugeborene_19.jpg", "neugeborene_18.jpg", "neugeborene_17.jpg", "neugeborene_16.jpg",
+          "neugeborene_15.jpg", "neugeborene_14.jpg", "neugeborene_13.jpg", "neugeborene_12.jpg",
+          "neugeborene_11.jpg", "neugeborene_10.jpg", "neugeborene_9.jpg", "neugeborene_8.jpg",
+          "neugeborene_2.jpg", "neugeborene_1.jpg"
         ]
       }
     },
@@ -39,8 +49,11 @@
         "link": "embrace-yourself",
         "description": "Lass deine natürliche Schönheit und innere Stärke in jedem Bild erstrahlen. Bei meinem Shooting wird jeder Moment so eingefangen, dass deine Persönlichkeit perfekt zur Geltung kommt.",
         "url": "img/gallery/embrace-yourself",
-        "picurl": "",
-        "pics": [17,18, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+        "images": [
+          "17.jpg", "18.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg",
+          "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg",
+          "15.jpg", "16.jpg"
+        ]
       }
     },
     {
@@ -52,9 +65,16 @@
         "link": "kinder-und-familien",
         "description": "Erscheint ein kleiner Mensch auf Erden, ist dies der ideale Zeitpunkt, um diesen Moment einzufangen, weil Bilder einzigartige Andenken für die Zukunft sind. Egal ob klein oder groß, ob allein oder mit der ganzen Familie - in ungezwungener, lockerer Atmosphäre entstehen hier bleibende Erinnerungen für Eltern, Verwandte, Freunde und Liebende.",
         "url": "img/gallery/kinder",
-        "picurl": "familie",
-        "pics": [
-          46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 17, 15, 13, 9, 7, 6, 5, 4
+        "images": [
+          "familie_46.jpg", "familie_45.jpg", "familie_44.jpg", "familie_43.jpg",
+          "familie_42.jpg", "familie_41.jpg", "familie_40.jpg", "familie_39.jpg",
+          "familie_38.jpg", "familie_37.jpg", "familie_36.jpg", "familie_35.jpg",
+          "familie_34.jpg", "familie_33.jpg", "familie_32.jpg", "familie_31.jpg",
+          "familie_30.jpg", "familie_29.jpg", "familie_28.jpg", "familie_27.jpg",
+          "familie_26.jpg", "familie_25.jpg", "familie_24.jpg", "familie_23.jpg",
+          "familie_22.jpg", "familie_21.jpg", "familie_20.jpg", "familie_17.jpg",
+          "familie_15.jpg", "familie_13.jpg", "familie_9.jpg", "familie_7.jpg",
+          "familie_6.jpg", "familie_5.jpg", "familie_4.jpg"
         ]
       }
     },
@@ -67,8 +87,16 @@
         "link": "fotoprojekte",
         "description": "Stillen ist mehr als ein Vorgang – es ist Berührung, Atem, ein Blick. Ein Moment des Innehaltens.<br>Mit <b>#stilleninberlin</b> zeige ich Mütter beim Stillen im Leben der Stadt. Berlin ist der Rahmen – die eigentliche Geschichte ist die Nähe zwischen Mutter und Kind. Ohne Idealisierung, ohne Tabu. Manchmal ruhig, manchmal müde, manchmal voller Lachen. Immer echt. Ein Projekt über weibliche Stärke und Zartheit.",
         "url": "img/gallery/fotoprojekte",
-        "picurl": "projekte",
-        "pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+        "images": [
+          "projekte_1.jpg", "projekte_2.jpg", "projekte_3.jpg", "projekte_4.jpg",
+          "projekte_5.jpg", "projekte_6.jpg", "projekte_7.jpg", "projekte_8.jpg",
+          "projekte_9.jpg", "projekte_10.jpg", "projekte_11.jpg", "projekte_12.jpg",
+          "projekte_13.jpg", "projekte_14.jpg", "projekte_15.jpg", "projekte_16.jpg",
+          "projekte_17.jpg", "projekte_18.jpg", "projekte_19.jpg", "projekte_20.jpg",
+          "projekte_21.jpg", "projekte_22.jpg", "projekte_23.jpg", "projekte_24.jpg",
+          "projekte_25.jpg", "projekte_26.jpg", "projekte_27.jpg", "projekte_28.jpg",
+          "projekte_29.jpg", "projekte_30.jpg"
+        ]
       }
     }
   ]

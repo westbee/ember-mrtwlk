@@ -8,9 +8,16 @@
       "link": "kinder-und-familien",
       "description": "Erscheint ein kleiner Mensch auf Erden, ist dies der ideale Zeitpunkt, um diesen Moment einzufangen, weil Bilder einzigartige Andenken für die Zukunft sind. Egal ob klein oder groß, ob allein oder mit der ganzen Familie - in ungezwungener, lockerer Atmosphäre entstehen hier bleibende Erinnerungen für Eltern, Verwandte, Freunde und Liebende.",
       "url": "img/gallery/kinder",
-      "picurl": "familie",
-      "pics": [
-        46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 17, 15, 13, 9, 7, 6, 5, 4
+      "images": [
+        "familie_46.jpg", "familie_45.jpg", "familie_44.jpg", "familie_43.jpg",
+        "familie_42.jpg", "familie_41.jpg", "familie_40.jpg", "familie_39.jpg",
+        "familie_38.jpg", "familie_37.jpg", "familie_36.jpg", "familie_35.jpg",
+        "familie_34.jpg", "familie_33.jpg", "familie_32.jpg", "familie_31.jpg",
+        "familie_30.jpg", "familie_29.jpg", "familie_28.jpg", "familie_27.jpg",
+        "familie_26.jpg", "familie_25.jpg", "familie_24.jpg", "familie_23.jpg",
+        "familie_22.jpg", "familie_21.jpg", "familie_20.jpg", "familie_17.jpg",
+        "familie_15.jpg", "familie_13.jpg", "familie_9.jpg", "familie_7.jpg",
+        "familie_6.jpg", "familie_5.jpg", "familie_4.jpg"
       ]
     }
   }
