@@ -31,7 +31,7 @@ export default class IndexRoute extends Route {
         photos: {
           quantity: "87",
           text: "Bilder",
-          button: "View Gallery",
+          button: "Zur Galerie",
         },
       },
     };
