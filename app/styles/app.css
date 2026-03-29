@@ -769,6 +769,11 @@ a:hover.copyright-notice--no-decoration-link {
   background-position: 55% 50%;
 }
 
+.package__details--bg-personal-branding {
+  background-image: url("/img/pakete/personal-branding.jpg");
+  background-position: 50% center;
+}
+
 .package__box {
   background-color: #fff;
   padding: 2em;
@@ -793,6 +798,10 @@ a:hover.copyright-notice--no-decoration-link {
     background-position: 50% 90%;
   }
 
+  .package__details--bg-personal-branding {
+    background-position: 50% center;
+  }
+
   .package__details {
     padding: 3em;
   }
@@ -811,6 +820,10 @@ a:hover.copyright-notice--no-decoration-link {
 
 .box__headline {
   padding-top: 20px;
+}
+
+.box__teaser {
+  margin-bottom: -20px;
 }
 
 .box__points {
@@ -835,6 +848,14 @@ a:hover.copyright-notice--no-decoration-link {
   font-size: 0.7rem;
 }
 
+.box__investition-text {
+  margin-bottom: 10px;
+  margin-top: -10px;
+  text-align: center;
+  font-weight: 600;
+  font-family: var(--font-decorative);
+  letter-spacing: 0.04rem;
+}
 .gallery__intro {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -860,6 +881,14 @@ a:hover.copyright-notice--no-decoration-link {
   .gallery__photos {
     width: 1400px;
     margin: 50px auto 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .gallery__photos--personal-branding {
+    column-count: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
