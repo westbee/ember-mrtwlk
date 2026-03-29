@@ -27,6 +27,7 @@ Router.map(function () {
     this.route("neugeborene");
     this.route("kinder-und-familien");
     this.route("embrace-yourself");
+    this.route("personal-branding");
   });
   this.route("bildergalerie", function () {
     this.route("gallery", { path: "/:gallery_id" });

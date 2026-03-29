@@ -22,6 +22,10 @@ export default class PaketeRoute extends Route {
           name: "Kinder & Familien",
           route: "kinder-und-familien",
         },
+        {
+          name: "Personal Branding",
+          route: "personal-branding",
+        },
       ],
     };
   }

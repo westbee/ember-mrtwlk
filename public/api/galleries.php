@@ -13,7 +13,7 @@ $galleryId = isset($_GET['id']) ? $_GET['id'] : null;
 
 $allowedIds = array_column($meta['galleries'], 'id');
 
-function scanGalleryImages($galleryDir) {
+function scanGalleryImages($galleryDir, $sortByName = false) {
     $images = [];
     $allowedExtensions = ['jpg', 'jpeg', 'png', 'webp'];
 
@@ -32,9 +32,14 @@ function scanGalleryImages($galleryDir) {
         }
     }
 
-    usort($images, function ($a, $b) use ($galleryDir) {
-        return filemtime("$galleryDir/$b") - filemtime("$galleryDir/$a");
-    });
+    if ($sortByName) {
+        natsort($images);
+        $images = array_values($images);
+    } else {
+        usort($images, function ($a, $b) use ($galleryDir) {
+            return filemtime("$galleryDir/$b") - filemtime("$galleryDir/$a");
+        });
+    }
 
     return $images;
 }
@@ -54,6 +59,7 @@ function buildGalleryResource($galleryMeta, $images) {
     ];
 }
 
+$sortByNameIds = ['personal-branding'];
 $imgBase = realpath(__DIR__ . '/../img/gallery');
 
 if ($galleryId) {
@@ -73,7 +79,7 @@ if ($galleryId) {
 
     $dirName = basename($galleryMeta['url']);
     $galleryDir = $imgBase . '/' . $dirName;
-    $images = scanGalleryImages($galleryDir);
+    $images = scanGalleryImages($galleryDir, in_array($galleryId, $sortByNameIds));
 
     echo json_encode(['data' => buildGalleryResource($galleryMeta, $images)]);
 } else {
@@ -81,7 +87,7 @@ if ($galleryId) {
     foreach ($meta['galleries'] as $galleryMeta) {
         $dirName = basename($galleryMeta['url']);
         $galleryDir = $imgBase . '/' . $dirName;
-        $images = scanGalleryImages($galleryDir);
+        $images = scanGalleryImages($galleryDir, in_array($galleryMeta['id'], $sortByNameIds));
         $data[] = buildGalleryResource($galleryMeta, $images);
     }
     echo json_encode(['data' => $data]);
