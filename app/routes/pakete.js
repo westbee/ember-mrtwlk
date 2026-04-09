@@ -4,7 +4,7 @@ export default class PaketeRoute extends Route {
   async model() {
     return {
       explainer:
-        "Eure Wünsche und Vorstellungen besprechen wir im Vorfeld und Ihr entscheidet Euch, welches Paket Ihr buchen möchtet. Im Anschluss an das Fotoshooting wird jedes Bild von mir individuell und professionell bearbeitet. Die Bilder werden dann in einer persönlichen Online-Galerie bereitgestellt und gedruckt im Format 13x19.",
+        "Eure Wünsche und Vorstellungen besprechen wir im Vorfeld und Ihr entscheidet Euch, welches Paket Ihr buchen möchtet. Im Anschluss an das Fotoshooting wird jedes Bild von mir individuell und professionell bearbeitet.",
       categories: [
         {
           name: "Babybauch",
